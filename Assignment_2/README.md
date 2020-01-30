@@ -1,4 +1,4 @@
-#Creative Coding: OpenFrameworks
+# Creative Coding: OpenFrameworks #
 
 ## C++ ##
 
