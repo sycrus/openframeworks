@@ -1,6 +1,6 @@
 # Creative Coding: OpenFrameworks #
 
-![Me](../profile pic.jpg)
+![Me](https://github.com/sycrus/openframeworks/blob/master/images/profile%20pic.jpg?raw=true)
 
 ## Bio ##
 First year MFA DT student. 🗽🧢 🇸🇬. 
