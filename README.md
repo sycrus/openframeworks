@@ -1,5 +1,6 @@
 # Creative Coding: OpenFrameworks #
 
+![Me](/images/profile pic.jpg)
 
 ## Bio ##
 First year MFA DT student. 🗽🧢 🇸🇬. 
