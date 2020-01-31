@@ -7,4 +7,4 @@ First year MFA DT student. 🗽🧢 🇸🇬.
 
 ❤️ AR/VR, Education, Learning Experience Design, Graphic Design. 
 
-[joechung.me](joechung.me)
+Portfolio: [joechung.me](joechung.me)
