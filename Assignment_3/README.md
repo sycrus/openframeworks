@@ -51,3 +51,14 @@ An interactive, real-time experience that engages users to experiment, collabora
 #### Translation ####
 My translation will accomplish this through 3D objects, sensors/controllers (knobs, buttons etc).
 
+## This week's coding assignment: Group 1 ##
+### void ofDrawBitmapString(const T &textString, float x, float y) ###
+This function outputs a bitmapped textString at location (x,y) on the screen.
+
+### void ofDrawCircle(float x, float y, float radius) ###
+This function draws a circle with radius at its center at location (x,y) on the screen.
+
+### void ofDrawCurve(float x0, float y0, float x1, float y1, float x2, float y2, float x3, float y3) ### 
+This function draws a curve from point (x1, y1) to point (x2, y2). The curve is shaped by the two control points (x0,y0) and (x3,y3).
+
+
