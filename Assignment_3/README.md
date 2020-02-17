@@ -60,6 +60,10 @@ An interactive, real-time experience that engages users to experiment, collabora
 #### Translation ####
 My translation will accomplish this through 3D objects, sensors/controllers (knobs, buttons etc).
 
+## This week's coding assignment: Shapes ##
+<img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_3/img/Assignment_3.gif?raw=true" width=800> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_3/img/Assignment_3.png?raw=true" width=800> <br>
+
 ## This week's coding assignment: Group 1 ##
 ### void ofDrawBitmapString(const T &textString, float x, float y) ###
 This function outputs a bitmapped textString at location (x,y) on the screen.
