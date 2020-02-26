@@ -1,3 +1,2 @@
 Assignment 5: Sound and Polygons
-
-https://vimeo.com/393851803
+https://player.vimeo.com/video/393851803
