@@ -1,9 +1,9 @@
 ## Assignment 6: Fbo and Interactions ##
 
-<img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_6/img/derp.gif?raw=true" width=800>
-<img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_6/img/derp1.png?raw=true" width=400> <br>
-<img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_6/img/derp2.png?raw=true" width=400> <br>
-<img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_6/img/derp_fbo.png?raw=true" width=400> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_6/img/derp.gif?raw=true" width=600>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_6/img/derp1.png?raw=true" width=600> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_6/img/derp2.png?raw=true" width=600> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_6/img/derp_fbo.png?raw=true" width=600> <br>
 
 This week I implemented fbo to create a fade effect, added text using Futura (TrueType font), and enabled users to click on a location for the sun.
 
