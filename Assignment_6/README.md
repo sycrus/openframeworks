@@ -1,4 +1,4 @@
-## Assignment 6: Fbo and Interactions ##
+## Assignment 6: Local Interactions and Fbo ##
 
 <img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_6/img/derp.gif?raw=true" width=600>
 <img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_6/img/derp1.png?raw=true" width=600> <br>
