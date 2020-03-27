@@ -5,4 +5,4 @@
   <img src="https://github.com/sycrus/openframeworks/blob/master/Assignment_8/img/91 force.png?raw=true" alt="derp" width=400>
 </a>
 
-This week I used Darksky API to get the weather conditions of Singapore.
+This week I used Darksky API to get the weather conditions of Singapore. I used the wind data to create a windvane of sorts to visualize the direction and intensity of the wind. I used the sunset and sunrise timings to control the background.
