@@ -1,5 +1,7 @@
 # Project 1: On My Own? A Short Story #
 
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/projection.JPG?raw=true" width=400>
+
 ## Project Concept ##
 How does nature find a way to connect with us, when we are ensconced in our isolation chambers? 
 How will we react, and how does nature react to us in this state?
