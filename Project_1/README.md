@@ -21,7 +21,10 @@ I imagine this to be in a museum/playspace setting, where people have access to 
 
 ## Sketches ##
 <img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/character_sketches.png?raw=true" width=400>
+
 <img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/bird_sketches.png?raw=true" width=400>
+
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/apartment_front.png?raw=true" width=400>
 
 ## Future Extensions ##
 I am curious about the possibilities of each of these worlds interacting with each other. For example, how will neighbors react when they see each other opposite to each other? I could create, using two boxes, placed side by side, and have the story of the two neighbors told. It could be interactive as well, such as how would the interactions change if different combinations of neighbors were placed beside one another, or it could be told from the perspective of the pigeon, who flits from parapet to parapet. Or a dog or cat could react to this perceived invasion of a confined space.
