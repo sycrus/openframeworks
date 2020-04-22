@@ -1,0 +1,4 @@
+ofxAnimatable
+ofxGui
+ofxSvg
+ofxWarp
