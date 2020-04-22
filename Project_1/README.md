@@ -1,4 +1,4 @@
-# Project 1: On My Own? A Short Story #
+# Project 1: Boxed in: A Short Story #
 
 <img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/projection.JPG?raw=true" width=400>
 
