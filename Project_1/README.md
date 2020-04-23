@@ -41,3 +41,6 @@ These are the issues I have faced so far when conceptualizing and realizing this
 
 ## Evaluation ##
 I have to manage my own expectations between how I envision the story to be, and how well I can execute it in OF. This is an exercise on brevity, simplicity, and other (non-visual) modes of communicating emotion or telling as story.
+
+## Youtube Link ##
+https://www.youtube.com/watch?v=xUAHrGDY26o
