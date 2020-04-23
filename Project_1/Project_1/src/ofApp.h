@@ -29,17 +29,28 @@ class ofApp : public ofBaseApp{
     void svgToPolyline(ofxSVG svg);
     void updateStepPolyline();
     void drawPolyline(vector<ofPolyline> outlines);
+    void drawBirdTop(int x, int y, float angle);
+    void drawBirdSide(int x, int y, bool faceLeft);
+    void drawMan(int x, int y);
     void drawFace(int x, int y);
+    
+    float getAngle(ofPoint point1, ofPoint point2);
+
     
     //Draw variables
     ofFbo fboTop, fboFront, fboSide;
     ofPixels pixelTop, pixelFront, pixelSide;
-    ofImage imgFront, imgSide, imgTop;  //for loading
+    ofImage imgFront, imgSide, imgTop,
+            bTopImg, bImgFaceLeft, bImgFaceRight, cImg,
+            boxedImg, inImg, finImg;  //for loading
     
     //SVGs
     ofxSVG svgFront, svgSide, svgTop,
             svgCBody, svgBBody, svgBBodyTop,
-            svgBoxed, svgIn;
+            svgBoxed, svgIn, svgFin;
+    
+    //SVG offsets
+    ofPoint cBody, bBody, bBodyTop;
     
     //Warp variables
     bool useBeginEnd;
@@ -52,12 +63,14 @@ class ofApp : public ofBaseApp{
     
     vector<ofPolyline> outlines;
     float step;
+    int pct;
     
     //Scene management
-    int scene = 1;
+    int scene = 0;
+    float speed;
     
     //Anchors
-    ofPoint boxedAnchor, inAnchor,
+    ofPoint boxedAnchor, inAnchor, finAnchor,
             cBodyAnchor, cFaceAnchor,
             cLHAnchor,cRHAnchor,
             bBodyAnchor, bBodyTopAnchor;
@@ -83,6 +96,11 @@ class ofApp : public ofBaseApp{
     
     //testing
     int x;
+    ofVec2f bird, man;
+    float progress, fade;
+    int sequence;
+    int currentTime;
+    float currPathAngle, prevPathAngle, angleToRotate;
     
     //face variables
     ofRectangle face;

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="43.4px" height="91.9px" viewBox="0 0 43.4 91.9" xml:space="preserve">
-<path fill="#88E1F2" d="M29.3,87.3c-3.1,6.1-11.9,6.1-15,0C8,74.8,0,45.7,0,38.4c0-12,9.7-21.7,21.7-21.7s21.7,9.7,21.7,21.7
-	C43.6,45.7,35.6,74.8,29.3,87.3z"/>
-<polygon fill="#FF7C7C" points="21.7,0 12.5,15.9 30.9,15.9 "/>
-<circle fill="#76B4F2" cx="21.7" cy="27.4" r="15.7"/>
-<ellipse transform="matrix(0.9655 -0.2602 0.2602 0.9655 -14.4174 3.613)" fill="#76B4F2" cx="6.4" cy="56.3" rx="6.1" ry="21.6"/>
-<ellipse transform="matrix(0.2602 -0.9655 0.9655 0.2602 -26.9651 77.3066)" fill="#76B4F2" cx="37" cy="56.3" rx="21.6" ry="6.1"/>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="31.4px" height="61.5px" viewBox="0 0 31.4 61.5" style="enable-background:new 0 0 31.4 61.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#88E1F2;}
+	.st1{fill:#FF7C7C;}
+	.st2{fill:#76B4F2;}
+</style>
+<path class="st0" d="M20.8,58.4c-2.1,4.1-8,4.1-10,0c-4.2-8.4-9.6-27.9-9.6-32.7c0-8,6.5-14.5,14.5-14.5s14.5,6.5,14.5,14.5
+	C30.4,30.6,25,50.1,20.8,58.4z"/>
+<polygon class="st1" points="15.7,0 9.5,10.6 21.9,10.6 "/>
+<circle class="st2" cx="15.7" cy="18.3" r="10.5"/>
+<ellipse transform="matrix(0.9656 -0.2602 0.2602 0.9656 -9.6216 2.7167)" class="st2" cx="5.5" cy="37.7" rx="4.1" ry="14.5"/>
+<ellipse transform="matrix(0.2602 -0.9656 0.9656 0.2602 -17.1815 52.9181)" class="st2" cx="25.9" cy="37.7" rx="14.5" ry="4.1"/>
 </svg>
