@@ -1,7 +1,8 @@
 # Project 1: Boxed in: A Short Story #
 
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/projection.JPG?raw=true" width=400>
-
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still3.jpg?raw=true" width=600> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still2.jpg?raw=true" width=600> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still1.jpg?raw=true" width=600> <br>
 
 ## Youtube Link ##
 https://www.youtube.com/watch?v=xUAHrGDY26o <br>
