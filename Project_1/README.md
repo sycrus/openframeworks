@@ -2,6 +2,11 @@
 
 <img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/projection.JPG?raw=true" width=400>
 
+
+## Youtube Link ##
+https://www.youtube.com/watch?v=xUAHrGDY26o
+The beta only shows the positions and movements of each of the characters. To be added later are animations, such as facial expressions, bird flapping wings, and character's interactions with the environment.
+
 ## Project Concept ##
 How does nature find a way to connect with us, when we are ensconced in our isolation chambers? 
 How will we react, and how does nature react to us in this state?
@@ -42,5 +47,3 @@ These are the issues I have faced so far when conceptualizing and realizing this
 ## Evaluation ##
 I have to manage my own expectations between how I envision the story to be, and how well I can execute it in OF. This is an exercise on brevity, simplicity, and other (non-visual) modes of communicating emotion or telling as story.
 
-## Youtube Link ##
-https://www.youtube.com/watch?v=xUAHrGDY26o
