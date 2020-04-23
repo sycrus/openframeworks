@@ -4,7 +4,7 @@
 
 
 ## Youtube Link ##
-https://www.youtube.com/watch?v=xUAHrGDY26o
+https://www.youtube.com/watch?v=xUAHrGDY26o <br>
 The beta only shows the positions and movements of each of the characters. To be added later are animations, such as facial expressions, bird flapping wings, and character's interactions with the environment.
 
 ## Project Concept ##
