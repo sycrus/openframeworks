@@ -1,4 +1,5 @@
 # Project 2: Pingpongball #
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_2/img/gamescreen.png?raw=true" alt="Screenshot" width="800"/> <br>
 
 [![Gameplay](http://img.youtube.com/vi/shzv02Gpar0/0.jpg)](https://www.youtube.com/watch?v=shzv02Gpar0 "Gameplay") <br>
 [![Calibration](http://img.youtube.com/vi/CVzO7BLHT4E/0.jpg)](https://www.youtube.com/watch?v=CVzO7BLHT4E "Calibration") <br>
