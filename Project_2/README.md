@@ -1,13 +1,10 @@
 # Project 2: Pingpongball #
 
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still3.jpg?raw=true" width=600> <br>
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still2.jpg?raw=true" width=600> <br>
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still1.jpg?raw=true" width=600> <br>
-
-## Youtube Links ##
-Gameplay video
-Calibration video
-Tangible portions
+[![Gameplay](http://img.youtube.com/vi/shzv02Gpar0/0.jpg)](https://www.youtube.com/watch?v=shzv02Gpar0 "Gameplay") <br>
+[![Calibration](http://img.youtube.com/vi/CVzO7BLHT4E/0.jpg)](https://www.youtube.com/watch?v=CVzO7BLHT4E "Calibration") <br>
+[![Placement](http://img.youtube.com/vi/O9ZxQS68mVY/0.jpg)](https://www.youtube.com/watch?v=O9ZxQS68mVY "Placement") <br>
+[![Rotation](http://img.youtube.com/vi/nGyU2zlDZ9I/0.jpg)](https://www.youtube.com/watch?v=nGyU2zlDZ9I "Rotation") <br>
+[![Controllers](http://img.youtube.com/vi/-I6XUo6Prbo/0.jpg)](https://www.youtube.com/watch?v=-I6XUo6Prbo "Controllers") <br>
 
 ## Project Concept ##
 How can pinball machines be quickly customizeable and prototypeable? 
