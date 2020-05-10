@@ -55,7 +55,7 @@ I used the ofxBox2d library to create the physics components, using the edges, c
 
 - Due to lack of maker facilities, I made buttons out of tiny pushbuttons in a case made of Lego parts. Also, I had enough buttons to make the flippers move, but not enough for resetting the game, setting the pieces or activating the plunger.
 
--o fKinect: I had to experiment with the IR camera of Kinect, and how to recognize objects. Eventually I settled on using area of blobs (within a range for each shape), but changing values at different distances/angles from the Kinect affects the area substantially. I suspect it may be because of uneven IR lighting from the Kinect IR array, which can be avoided if I had a separate IR light source.
+- ofKinect: I had to experiment with the IR camera of Kinect, and how to recognize objects. Eventually I settled on using area of blobs (within a range for each shape), but changing values at different distances/angles from the Kinect affects the area substantially. I suspect it may be because of uneven IR lighting from the Kinect IR array, which can be avoided if I had a separate IR light source.
 
 - ofxBox2d library: ofxBox2d had a different way of creating objects that took me some time to understand, which I started with from the flippers . This was a good opportunity to learn about vectors, both pushing to, iterating and retrieving from them. 
 
