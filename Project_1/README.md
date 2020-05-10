@@ -1,12 +1,10 @@
 # Project 1: Boxed in: A Short Story #
 
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still3.jpg?raw=true" width=600> <br>
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still2.jpg?raw=true" width=600> <br>
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still1.jpg?raw=true" width=600> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still4.jpg?raw=true" width=600> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still5.jpg?raw=true" width=600> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still6.jpg?raw=true" width=600> <br>
 
-## Youtube Link ##
-https://www.youtube.com/watch?v=xUAHrGDY26o <br>
-The beta only shows the positions and movements of each of the characters. To be added later are animations, such as facial expressions, bird flapping wings, and character's interactions with the environment.
+[![Video](http://img.youtube.com/vi/-obwAIszi1Y/0.jpg)](https://www.youtube.com/watch?v=-obwAIszi1Y "Video") <br>
 
 ## Project Concept ##
 How does nature find a way to connect with us, when we are ensconced in our isolation chambers? 
@@ -25,13 +23,6 @@ I decided to use a grey cardboard box, previously packaging which I flipped insi
 ## Target Audience ##
 I imagine this to be in a museum/playspace setting, where people have access to projected spaces. At the same time, this would be most identifiable to bored social distancers.
 
-## Sketches ##
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/character_sketches.png?raw=true" width=400>
-Character sketches
-
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/bird_sketches.png?raw=true" width=400>
-Bird sketches, with one from top view for top of apartment
-
 ## Future Extensions ##
 I am curious about the possibilities of each of these worlds interacting with each other. For example, how will neighbors react when they see each other opposite to each other? I could create, using two boxes, placed side by side, and have the story of the two neighbors told. It could be interactive as well, such as how would the interactions change if different combinations of neighbors were placed beside one another, or it could be told from the perspective of the pigeon, who flits from parapet to parapet. Or a dog or cat could react to this perceived invasion of a confined space.
 
@@ -39,9 +30,11 @@ I am curious about the possibilities of each of these worlds interacting with ea
 These are the issues I have faced so far when conceptualizing and realizing this project:
 - Importing SVG into OF and animating it: ofxSVG --> ofPolyline
 - Projecting onto a box: ofxWarp, or via ofxSyphon --> MadMapper (rejected because of watermarks, and because I wanted it to be contained in OF
-- Drawing to the surfaces of ofxWarp: still in progress. I suspect I will have to grab the screen image each frame
-- Animation, and simplifying the process: still in progress. ofxAnimatable 
+- Drawing to the surfaces of ofxWarp: Drawing to surfaces and creating one fbo for each face of the box worked.
+- Animation, and simplifying the process: I separated the animation into 6 scenes, with sequences each. I created points that the characters would stop at, and a path they would travel along. I then used ofGetFrameNum and used a percentage of each duration to calculate how far along the path the characters have traveled. To do so took a lot of planning, mapping out each scene and each point. Once the general movement was programmed, it was relatively straightforward.
 
 ## Evaluation ##
 I have to manage my own expectations between how I envision the story to be, and how well I can execute it in OF. This is an exercise on brevity, simplicity, and other (non-visual) modes of communicating emotion or telling as story.
+
+This is also a good chance to streamline animation flows, and to think about curved paths which could be accomplished by exporting from Illustrator. Once these processes are more streamlined, less time can be spent on technical issues and more towards storytelling.
 
