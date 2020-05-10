@@ -1,8 +1,8 @@
 # Project 1: Boxed in: A Short Story #
 
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still4.jpg?raw=true" width=600> <br>
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still5.jpg?raw=true" width=600> <br>
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still6.jpg?raw=true" width=600> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still4.png?raw=true" width=600> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still5.png?raw=true" width=600> <br>
+<img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still6.png?raw=true" width=600> <br>
 
 [![Video](http://img.youtube.com/vi/-obwAIszi1Y/0.jpg)](https://www.youtube.com/watch?v=-obwAIszi1Y "Video") <br>
 
