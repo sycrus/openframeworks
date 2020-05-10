@@ -28,16 +28,8 @@ User flow:
 4. Once the game objects are created, she can press a button to launch the ball. She can use buttons to control the flipper. Points are recorded for hitting game objects.
 5. Once the ball falls below the flippers, the score is reset.
 
-
 ## Target Audience ##
 I imagine this to be in a museum/playspace setting, where people have access to interactive projected spaces. 
-
-## Sketches ##
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_2/img/character_sketches.png?raw=true" width=400>
-Character sketches
-
-<img src="https://github.com/sycrus/openframeworks/blob/master/Project_2/img/bird_sketches.png?raw=true" width=400>
-Game screen
 
 ## Future Extensions ##
 In the future I would wish to explore extending this system to a bigger space, and build more interesting interactive experiences. For example, allow children to build their own towns, or make their own games.
