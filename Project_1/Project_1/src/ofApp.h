@@ -28,101 +28,113 @@ class ofApp : public ofBaseApp{
     
     void svgToPolyline(ofxSVG svg);
     void updateStepPolyline();
-    void drawPolyline(vector<ofPolyline> outlines);
+    void drawPolyline(vector<ofPolyline> outlines, float pct);
     void drawBirdTop(int x, int y, float angle);
+    void drawBirdWingsTop(int x, int y);
     void drawBirdSide(int x, int y, bool faceLeft);
+    void drawBirdWingsSide(int x, int y, bool faceLeft);
     void drawMan(int x, int y);
     void drawFace(int x, int y);
     
     float getAngle(ofPoint point1, ofPoint point2);
-
-    
-    //Draw variables
-    ofFbo fboTop, fboFront, fboSide;
-    ofPixels pixelTop, pixelFront, pixelSide;
-    ofImage imgFront, imgSide, imgTop,
-            bTopImg, bImgFaceLeft, bImgFaceRight, cImg,
-            boxedImg, inImg, finImg;  //for loading
-    
-    //SVGs
-    ofxSVG svgFront, svgSide, svgTop,
-            svgCBody, svgBBody, svgBBodyTop,
-            svgBoxed, svgIn, svgFin;
-    
-    //SVG offsets
-    ofPoint cBody, bBody, bBodyTop;
     
     //Warp variables
-    bool useBeginEnd;
-    ofxWarpController warpController;
-    ofTexture texture;
+    bool                useBeginEnd;
+    ofxWarpController   warpController;
+    ofTexture           texture;
     vector<ofRectangle> srcAreas;
-    int areaMode;
-    std::string areaName;
-    ofImage testImage;
+    int                 areaMode;
+    std::string         areaName;
+    ofImage             testImage;
     
-    vector<ofPolyline> outlines;
-    float step;
-    int pct;
+    //Draw variables
+    ofFbo               fboTop, fboFront, fboSide;
+    ofPixels            pixelTop, pixelFront, pixelSide;
+    ofImage             imgFront, imgSide, imgTop,
+                        bTopImg1, bTopImg2, //wing vs no wing
+                        bTopWing1, bTopWing2, bTopWing3,
+                        bSideWingLeft1, bSideWingLeft2,
+                        bSideWingRight1, bSideWingRight2,
+                        bLeft1, bLeft2, bRight1, bRight2, cImg,
+                        boxedImg, inImg, finImg,
+                        angryImg, singImg, curiousImg,
+                        faces[6], hands[3];
+    
+    //SVGs
+    ofxSVG              svgFront, svgSide, svgSideBack, svgTop,
+                        svgCBody, svgBBody, svgBBodyTop,
+                        svgBoxed, svgIn, svgFin;
+    //SVG offsets
+    ofPoint             cBody, bBody, bBodyTop;
     
     //Scene management
-    int scene = 0;
-    float speed;
+    int                 scene, sequence;
+    float               pct;
+    float               speed;
+    int                 startTime;
+    int                 endTime;
+    
+    
+    vector<ofPolyline>  outlines;
+    float               step;
     
     //Anchors
-    ofPoint boxedAnchor, inAnchor, finAnchor,
-            cBodyAnchor, cFaceAnchor,
-            cLHAnchor,cRHAnchor,
-            bBodyAnchor, bBodyTopAnchor;
+    ofPoint             boxedAnchor, inAnchor, finAnchor, //text
+                        cBodyAnchor, cFaceAnchor,         //man
+                        cLHAnchor,cRHAnchor,
+                        bBodyAnchor, bBodyTopAnchor, bSpeechAnchor;      //bird
     
-    ofPoint scene1[4],
-            scene2b[6], scene2c[2],
-            scene3b[5], scene3c[3],
-            scene4b[5], scene4c[4],
-            scene5b[5], scene5c[6],
-            scene6b[6], scene6c[7];
+    ofVec2f             birdPos, manPos;
+    
+    ofPoint             scene1[4],
+                        scene2b[6], scene2c[2],
+                        scene3b[5], scene3c[3],
+                        scene4b[5], scene4c[4],
+                        scene5b[5], scene5c[6],
+                        scene6b[6], scene6c[7];
     
     //polylines for animation
-    ofPolyline sPoly1[3],
-                sPoly2b[4], sPoly2c[1],
-                sPoly3b[2], sPoly3c[2],
-                sPoly4b[2], sPoly4c[3],
-                sPoly5b[3], sPoly5c[4],
-                sPoly6b[5], sPoly6c[5];
+    ofPolyline          sPoly1[3],
+                        sPoly2b[4], sPoly2c[1],
+                        sPoly3b[2], sPoly3c[2],
+                        sPoly4b[2], sPoly4c[3],
+                        sPoly5b[3], sPoly5c[4],
+                        sPoly6b[5], sPoly6c[5];
     
-    //Box dimensions
-    int boxL, boxW, boxH;
-    int topW, topH, frontW, frontH, sideW, sideH;
-    
-    //testing
-    int x;
-    ofVec2f bird, man;
-    float progress, fade;
-    int sequence;
-    int currentTime;
     float currPathAngle, prevPathAngle, angleToRotate;
     
-    //face variables
-    ofRectangle face;
-    ofRectangle faceOutline;
-    int faceWidth = 170;
-    int faceHeight = 110;
+    //Box dimensions
+    int                 boxL, boxW, boxH;
+    int                 topW, topH, frontW, frontH, sideW, sideH;
+    
+    //testing
+    int                 x;
+    float               fade;
 
-    int strokeThickness = 15;
+    //bird variables
+    bool                isFlapping;
+    
+    //face variables --> just replace with 2 pngs and swap out
+    ofRectangle         face;
+    ofRectangle         faceOutline;
+    int                 faceWidth = 170;
+    int                 faceHeight = 110;
 
-    int eyeDistanceX = 45;
-    int eyeDistanceY = 2;
-    int eyeSize = 12;
+    int                 strokeThickness = 15;
 
-    int eyebrowDistanceX = 33;
-    int eyebrowDistanceY = 32;
-    int eyebrowWidth = 30;
-    int eyebrowHeight = 13;
+    int                 eyeDistanceX = 45;
+    int                 eyeDistanceY = 2;
+    int                 eyeSize = 12;
 
-    int noseWidth = 28;
-    int noseHeight = 20;
+    int                 eyebrowDistanceX = 33;
+    int                 eyebrowDistanceY = 32;
+    int                 eyebrowWidth = 30;
+    int                 eyebrowHeight = 13;
 
-    int mouthWidth = 26;
+    int                 noseWidth = 28;
+    int                 noseHeight = 20;
+
+    int                 mouthWidth = 26;
 
         
 };
