@@ -1,4 +1,4 @@
-# Project 2: Ping Pong Ball #
+# Project 2: Pingpongball #
 
 <img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still3.jpg?raw=true" width=600> <br>
 <img src="https://github.com/sycrus/openframeworks/blob/master/Project_1/img/still2.jpg?raw=true" width=600> <br>
